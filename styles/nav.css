@@ -1,0 +1,20 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  /*centraliza no eixo*/
+    line-height: 0;
+    padding-block: 20px;  /*espaço no eixo y*/
+}
+
+nav ul {
+  list-style: none; /*tira a bolinha padrão*/
+  display: flex;
+  gap: 24px;
+  padding-block: 8px;
+}
+
+nav ul li:last-child img { /*tem duas imagens na li, last-child pega o ultimo filho*/
+  width: 40px;
+  height: 40px;
+}
+
