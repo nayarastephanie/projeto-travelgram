@@ -9,6 +9,7 @@ nav {
 nav ul {
   list-style: none; /*tira a bolinha padrão*/
   display: flex;
+  align-items: center;
   gap: 24px;
   padding-block: 8px;
 }
