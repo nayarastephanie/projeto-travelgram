@@ -14,15 +14,16 @@ header .container {
   gap: 32px;
 }
 
-#profile > div {
-  max-width: 384px;
+#profile div:nth-child(1) {
+  width: 384px;
 }
 
-#profile img {
+#profile > img {
   width: 176px;
   height: 176px;
   object-fit: cover;
   border-radius: 50%;
+
 }
 
 #profile h1 {
@@ -36,15 +37,19 @@ header .container {
 }
 
 #info {
+
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  width: 280px;
+
+  width: 688px;
+  height: 104px;
+  margin: 40px 0;
+
 }
 
 #info li {
-  display: flex;
+  display: block;
   align-items: center;
   gap: 8px;
 }
